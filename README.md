@@ -46,9 +46,9 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
 
 ### 2. Screen Archetypes
 
-- [ ] Login Screen
+- [x] Login Screen
 * Users can log in to their existing accounts.
-- [ ] Registration Screen
+- [x] Registration Screen
 * Users can create a new account.
 - [ ] Home Screen
 * Users can search for specific locations, guides, or points of interest using filters.
@@ -83,9 +83,9 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] Login Screen
+- [x] Login Screen
   * => Home
-- [ ] Registration Screen
+- [x] Registration Screen
   * => Home
 - [ ] Home Screen
   * => location/event Screen
@@ -126,14 +126,14 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
 
 ### Breakdown into Sprints
 
-- **Sprint 1**: Set up project structure and tab controller setup.
+- **Sprint 1**: Set up project structure and tab controller setup and login and registration screen
 - **Sprint 2**: Design and implement the Home Screen and Explore Screen.
 - **Sprint 3**: Build the Guide Screen and Profile Screen.
 - **Sprint 4**: Implement the Map Screen and finalize features.
 
 ### Weekly Goals
 
-- Sprint 1 Goal: Complete project setup and login screen and Tab Controller Setup .
+- Sprint 1 Goal: Complete project setup and Tab Controller Setup .
 - Sprint 2 Goal: Design and implement UI components for the Home Screen and Explore Screen.
 - Sprint 3 Goal: Develop functionalities for viewing guide profiles and editing user profiles.
 - Sprint 4 Goal: Integrate map functionality and finalize user interface and features.
