@@ -140,9 +140,12 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
 
 ### Weekly Submissions
 
-- Sprint 1 :
-
-
+- Sprint 1 : Worked on login and signup screen  and implemented user authentication using firebase and connected screens using segue and tab controller for home screen
+<div>
+    <a href="https://www.loom.com/share/fbacfa3087eb41b988c4abe29eb3f5db">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/fbacfa3087eb41b988c4abe29eb3f5db-with-play.gif">
+    </a>
+  </div>
 ## Schema 
 
 [This section will be completed in Unit 9]
