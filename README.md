@@ -33,10 +33,12 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
 
 **Required Must-have Stories**
 
-* Users can view curated guides for less-known locations.
-* Users can access personalized recommendations for nearby points of interest, events, and attractions.
-* Users receive real-time updates on events and attractions in their selected destination.
-* Users can personally connect with local insiders who offer tailored tours and insights into the area's culture and history.
+* [x] Users can login and sign up into the app 
+* [x] Users can navigate form home screen to inbox, trip, Blog, Profile Screens
+* [ ] Users can view curated guides for less-known locations.
+* [ ] Users can access personalized recommendations for nearby points of interest, events, and attractions.
+* [ ] Users receive real-time updates on events and attractions in their selected destination.
+* [ ] Users can personally connect with local insiders who offer tailored tours and insights into the area's culture and history.
 
 **Optional Nice-to-have Stories**
 
