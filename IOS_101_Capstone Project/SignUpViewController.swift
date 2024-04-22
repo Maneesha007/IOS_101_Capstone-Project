@@ -10,43 +10,40 @@ import Firebase
 
 class SignUpViewController: UIViewController {
     
-    
     @IBOutlet weak var nameTextField: UITextField!
-    
     @IBOutlet weak var emailTextField: UITextField!
-    
     @IBOutlet weak var passwordTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     
     @IBAction func didTapSignUpButton(_ sender: UIButton) {
-        guard let email = emailTextField.text else { return }
-        guard let password = passwordTextField.text else { return }
-        Auth.auth().createUser(withEmail: email , password: password) { firebaseResult, error in
-            if let e = error {
-                print("error")
+        guard let email = emailTextField.text, !email.isEmpty,
+              let password = passwordTextField.text, !password.isEmpty else {
+            // Optionally handle the case where email or password is not provided
+            print("Email or password is missing.")
+            return
+        }
+
+        Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
+            if let error = error {
+                print(error.localizedDescription)
+                self.showAlert(withMessage: "Failed to sign up: \(error.localizedDescription)")
+            } else {
+                // Assuming sign up was successful, inform the user
+                self.showAlert(withMessage: "You have successfully signed up. Please log in.")
             }
-            else {
-                //go to home screen
-                self.performSegue(withIdentifier: "goToHome", sender: self)
-                
-            }
-            
         }
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func showAlert(withMessage message: String) {
+        let alert = UIAlertController(title: "Signup Successful", message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+            // Perform segue after the user taps "OK"
+            self.performSegue(withIdentifier: "goToLogin", sender: self)
+        }))
+        present(alert, animated: true, completion: nil)
     }
-    */
-
 }

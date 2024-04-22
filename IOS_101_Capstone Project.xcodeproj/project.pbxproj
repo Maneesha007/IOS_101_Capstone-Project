@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		48318BB72BCF572C006C5BCF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48318BB62BCF572B006C5BCF /* SignUpViewController.swift */; };
-		48318BB92BCFACD5006C5BCF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48318BB82BCFACD5006C5BCF /* GoogleService-Info.plist */; };
 		48318BBC2BCFAF14006C5BCF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 48318BBB2BCFAF14006C5BCF /* FirebaseAuth */; };
+		48318BBE2BD0D8E3006C5BCF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48318BBD2BD0D8E3006C5BCF /* GoogleService-Info.plist */; };
 		483996802BCE87C20080E560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4839967F2BCE87C20080E560 /* AppDelegate.swift */; };
 		483996822BCE87C20080E560 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483996812BCE87C20080E560 /* SceneDelegate.swift */; };
 		483996842BCE87C20080E560 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483996832BCE87C20080E560 /* ViewController.swift */; };
@@ -19,6 +19,7 @@
 		483996972BCE87C40080E560 /* IOS_101_Capstone_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483996962BCE87C40080E560 /* IOS_101_Capstone_ProjectTests.swift */; };
 		483996A12BCE87C40080E560 /* IOS_101_Capstone_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483996A02BCE87C40080E560 /* IOS_101_Capstone_ProjectUITests.swift */; };
 		483996A32BCE87C40080E560 /* IOS_101_Capstone_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483996A22BCE87C40080E560 /* IOS_101_Capstone_ProjectUITestsLaunchTests.swift */; };
+		48C315762BD4703E00455B5A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C315752BD4703E00455B5A /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		48318BB62BCF572B006C5BCF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		48318BB82BCFACD5006C5BCF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		48318BBD2BD0D8E3006C5BCF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4839967C2BCE87C20080E560 /* IOS_101_Capstone Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS_101_Capstone Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4839967F2BCE87C20080E560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		483996812BCE87C20080E560 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +55,7 @@
 		4839969C2BCE87C40080E560 /* IOS_101_Capstone ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS_101_Capstone ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		483996A02BCE87C40080E560 /* IOS_101_Capstone_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_101_Capstone_ProjectUITests.swift; sourceTree = "<group>"; };
 		483996A22BCE87C40080E560 /* IOS_101_Capstone_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_101_Capstone_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48C315752BD4703E00455B5A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +115,8 @@
 				483996882BCE87C40080E560 /* Assets.xcassets */,
 				4839968A2BCE87C40080E560 /* LaunchScreen.storyboard */,
 				4839968D2BCE87C40080E560 /* Info.plist */,
-				48318BB82BCFACD5006C5BCF /* GoogleService-Info.plist */,
+				48318BBD2BD0D8E3006C5BCF /* GoogleService-Info.plist */,
+				48C315752BD4703E00455B5A /* ProfileViewController.swift */,
 			);
 			path = "IOS_101_Capstone Project";
 			sourceTree = "<group>";
@@ -246,7 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				483996892BCE87C40080E560 /* Assets.xcassets in Resources */,
-				48318BB92BCFACD5006C5BCF /* GoogleService-Info.plist in Resources */,
+				48318BBE2BD0D8E3006C5BCF /* GoogleService-Info.plist in Resources */,
 				4839968C2BCE87C40080E560 /* Base in Resources */,
 				483996872BCE87C20080E560 /* Base in Resources */,
 			);
@@ -275,6 +278,7 @@
 			files = (
 				483996842BCE87C20080E560 /* ViewController.swift in Sources */,
 				483996802BCE87C20080E560 /* AppDelegate.swift in Sources */,
+				48C315762BD4703E00455B5A /* ProfileViewController.swift in Sources */,
 				48318BB72BCF572C006C5BCF /* SignUpViewController.swift in Sources */,
 				483996822BCE87C20080E560 /* SceneDelegate.swift in Sources */,
 			);
