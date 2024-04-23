@@ -33,10 +33,13 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
 
 **Required Must-have Stories**
 
-* Users can view curated guides for less-known locations.
-* Users can access personalized recommendations for nearby points of interest, events, and attractions.
-* Users receive real-time updates on events and attractions in their selected destination.
-* Users can personally connect with local insiders who offer tailored tours and insights into the area's culture and history.
+* [x] Users can login and sign up into the app 
+* [x] Users can navigate form home screen to inbox, trip, Blog, Profile Screens
+* [ ] Users can view curated guides for less-known locations.
+* [x] Users can edit their Profile
+* [ ] Users can access personalized recommendations for nearby points of interest, events, and attractions.
+* [x] Users receive real-time updates on events and attractions in their selected destination.
+* [ ] Users can personally connect with local insiders who offer tailored tours and insights into the area's culture and history.
 
 **Optional Nice-to-have Stories**
 
@@ -56,11 +59,11 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
 * User receives suggestion to be as local guide for other people based on user location.
 - [ ] Guide Screen 
 * Users can view  profiles of Guides of interest and connect with local insiders and book tailored tours or experiences.
-- [ ] Detail Screen
+- [x] Detail Screen
 * Users can view detailed information about a specific location, event, or attraction
 - [ ] Guide Detail Screen 
 * Users can view  detailed profile of Guide and their reviews.  
-- [ ] Profile Screen
+- [x] Profile Screen
 * Users can view and edit their general information, guide profile, settings , policy and contact&support.
 - [ ] Blog Screen
 * Users can view curated guides, personalized recommendations, and real-time updates.
@@ -127,23 +130,46 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
 ### Breakdown into Sprints
 
 - **Sprint 1**: Set up project structure and tab controller setup and login and registration screen
-- **Sprint 2**: Design and implement the Home Screen and Explore Screen.
-- **Sprint 3**: Build the Guide Screen and Profile Screen.
+- **Sprint 2**: Build the Guide Screen and Profile Screen.
+- **Sprint 3**: Design and implement the Home Screen and Explore Screen.
 - **Sprint 4**: Implement the Map Screen and finalize features.
 
 ### Weekly Goals
 
 - Sprint 1 Goal: Complete project setup and Tab Controller Setup .
-- Sprint 2 Goal: Design and implement UI components for the Home Screen and Explore Screen.
-- Sprint 3 Goal: Develop functionalities for viewing guide profiles and editing user profiles.
+- Sprint 2 Goal: Develop functionalities for viewing guide profiles and editing user profiles.
+- Sprint 3 Goal: Design and implement UI components for the Home Screen and Explore Screen.
 - Sprint 4 Goal: Integrate map functionality and finalize user interface and features.
 
 ### Weekly Submissions
 
-- Sprint 1 :
+- Sprint 1 : Worked on login and signup screen  and implemented user authentication using firebase and connected screens using segue and tab controller for home screen
 
+- challenges Faced:
+* Implementing firebase project for User Authentication
+* Using Segue to control the flow between screens
+<div>
+    <a href="https://www.loom.com/share/fbacfa3087eb41b988c4abe29eb3f5db">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/fbacfa3087eb41b988c4abe29eb3f5db-with-play.gif">
+    </a>
+  </div>
 
+- Sprint 2 : Worked on 
+
+- challenges Faced:
+* Implementing firebase database for storing Signup Data
+* TableView for profile
+* 
+<div>
+    <a href="https://www.loom.com/share/fbacfa3087eb41b988c4abe29eb3f5db">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/fbacfa3087eb41b988c4abe29eb3f5db-with-play.gif">
+    </a>
+  </div>
+  
 ## Schema 
+
+
+
 
 [This section will be completed in Unit 9]
 
