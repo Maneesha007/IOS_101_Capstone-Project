@@ -17,20 +17,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="4Pb-iU-Jcj">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="1979"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1979" id="8yl-IC-FMc"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="uvG-qQ-z9l">
-                                <rect key="frame" x="76" y="288" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="uvG-qQ-z9l">
+                                <rect key="frame" x="76" y="288" width="241" height="128"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4Pb-iU-Jcj" secondAttribute="trailing" id="NDW-mj-aE8"/>
-                            <constraint firstAttribute="bottom" secondItem="4Pb-iU-Jcj" secondAttribute="bottom" constant="34" id="dqR-dH-Yfn" userLabel="bottom = login.bottom"/>
-                            <constraint firstItem="4Pb-iU-Jcj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="fuJ-tB-mdH" userLabel="login.top = top"/>
-                            <constraint firstItem="4Pb-iU-Jcj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gS0-tD-Grf"/>
+                            <constraint firstItem="4Pb-iU-Jcj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1oJ-28-FXy"/>
+                            <constraint firstItem="4Pb-iU-Jcj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ash-3Y-Avt"/>
+                            <constraint firstItem="4Pb-iU-Jcj" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-59" id="Q3G-eZ-YpV"/>
+                            <constraint firstItem="4Pb-iU-Jcj" firstAttribute="centerX" secondItem="uvG-qQ-z9l" secondAttribute="centerX" id="SYl-Xk-Plo"/>
+                            <constraint firstItem="uvG-qQ-z9l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="229" id="YU1-kd-c26"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uvG-qQ-z9l" secondAttribute="bottom" constant="402" id="ZAZ-zi-TVK"/>
+                            <constraint firstItem="uvG-qQ-z9l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="tmc-PD-Pn5"/>
                         </constraints>
                     </view>
                 </viewController>

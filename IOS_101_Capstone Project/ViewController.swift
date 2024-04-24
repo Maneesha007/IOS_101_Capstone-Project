@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ViewController.swift(login)
 //  IOS_101_Capstone Project
 //
 //  Created by Maneesha Reddy gurrala on 4/16/24.
@@ -37,6 +37,7 @@ class ViewController: UIViewController {
                 self.showLoginFailedAlert(message: error.localizedDescription)
             } else {
                 // Assuming 'goToHome' is your segue identifier to the home screen
+                self.navigationController?.popToRootViewController(animated: false)
                 self.performSegue(withIdentifier: "goToHome", sender: self)
             }
         }
