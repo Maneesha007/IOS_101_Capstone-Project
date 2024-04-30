@@ -26,8 +26,8 @@ class GuideViewController: UIViewController, UITableViewDataSource, UITableViewD
         title = " meet locals "
         
         // Register the nib file for the custom cell
-        //let nib = UINib(nibName: "GuideTableViewCell", bundle: nil)
-        //guideProfileView.register(nib, forCellReuseIdentifier: "GuideTableViewCell")
+        let nib = UINib(nibName: "GuideTableViewCell", bundle: nil)
+        guideProfileView.register(nib, forCellReuseIdentifier: "GuideTableViewCell")
         
         // Set dataSource and delegate
         guideProfileView.dataSource = self
@@ -86,6 +86,11 @@ class GuideViewController: UIViewController, UITableViewDataSource, UITableViewD
         cell.guideLocationLabel.text = guide.location
         cell.guideQuoteLabel.text = guide.quote
         cell.guideProfileImage.image = UIImage(named: guide.imageURL)
+        
+        cell.guideNameLabel.backgroundColor = UIColor.black.withAlphaComponent(0.6)
+        cell.guideNameLabel.textColor = UIColor.white
+        cell.guideLocationLabel.backgroundColor = UIColor.black.withAlphaComponent(0.6)
+        cell.guideLocationLabel.textColor = UIColor.white
         
         return cell
     }

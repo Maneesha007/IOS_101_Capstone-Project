@@ -360,7 +360,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="m4K-9B-AnL" kind="show" identifier="showGuideDetailSegue" id="bbn-ob-o59"/>
+                                            <segue destination="m4K-9B-AnL" kind="show" id="Bm9-Sl-LJH"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
