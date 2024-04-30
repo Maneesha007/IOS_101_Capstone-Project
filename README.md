@@ -173,8 +173,8 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
 * Tried to fetch Events using API , but need to work more on parsing the information(future work)
   
 <div>
-    <a href="https://www.loom.com/share/fbacfa3087eb41b988c4abe29eb3f5db">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/fbacfa3087eb41b988c4abe29eb3f5db-with-play.gif">
+    <a href="https://www.loom.com/share/7a151412559b454da776b14c84fa8d87">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/7a151412559b454da776b14c84fa8d87-with-play.gif">
     </a>
   </div>
   
