@@ -29,6 +29,7 @@
 		48C3157A2BD72BA200455B5A /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48C315782BD72BA200455B5A /* ProfileTableViewCell.xib */; };
 		48C3157E2BD7784B00455B5A /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 48C3157D2BD7784B00455B5A /* FirebaseDatabase */; };
 		48C315802BD78CBC00455B5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48C3157F2BD78CBB00455B5A /* GoogleService-Info.plist */; };
+		48EC87502BE056F9002BE9A6 /* GuideImages in Resources */ = {isa = PBXBuildFile; fileRef = 48EC874F2BE056F9002BE9A6 /* GuideImages */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		48C315772BD72BA200455B5A /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		48C315782BD72BA200455B5A /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
 		48C3157F2BD78CBB00455B5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		48EC874F2BE056F9002BE9A6 /* GuideImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GuideImages; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				48178F232BD7B0DA003C8826 /* GuideTableViewCell.swift */,
 				48178F242BD7B0DA003C8826 /* GuideTableViewCell.xib */,
 				48178F212BD7A8FE003C8826 /* GuideViewController.swift */,
+				48EC874F2BE056F9002BE9A6 /* GuideImages */,
 				48318BB62BCF572B006C5BCF /* SignUpViewController.swift */,
 				483996882BCE87C40080E560 /* Assets.xcassets */,
 				4839968A2BCE87C40080E560 /* LaunchScreen.storyboard */,
@@ -287,6 +290,7 @@
 				483996892BCE87C40080E560 /* Assets.xcassets in Resources */,
 				4839968C2BCE87C40080E560 /* Base in Resources */,
 				48C315802BD78CBC00455B5A /* GoogleService-Info.plist in Resources */,
+				48EC87502BE056F9002BE9A6 /* GuideImages in Resources */,
 				483996872BCE87C20080E560 /* Base in Resources */,
 				48C3157A2BD72BA200455B5A /* ProfileTableViewCell.xib in Resources */,
 			);
