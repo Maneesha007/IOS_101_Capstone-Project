@@ -154,12 +154,24 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
     </a>
   </div>
 
-- Sprint 2 : Worked on 
+- Sprint 2 : Worked on Profile Screen and guide screen and connected app to a Firebase realtime-database
 
 - challenges Faced:
 * Implementing firebase database for storing Signup Data
-* TableView for profile
-* 
+* Displaying TableView for profile using xib file
+  
+<div>
+    <a href="https://www.loom.com/share/fbacfa3087eb41b988c4abe29eb3f5db">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/fbacfa3087eb41b988c4abe29eb3f5db-with-play.gif">
+    </a>
+  </div>
+
+-Sprint 3 :Worked on trip screen to add trips for users who want to book local guide
+
+- challenges Faced:
+* Implementing view controller with a functionality of adding cells and delete similar to To-do-Task list
+* Tried to fetch Events using API , but need to work more on parsing the information(future work)
+  
 <div>
     <a href="https://www.loom.com/share/fbacfa3087eb41b988c4abe29eb3f5db">
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/fbacfa3087eb41b988c4abe29eb3f5db-with-play.gif">
@@ -168,17 +180,52 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
   
 ## Schema 
 
+The schema for your app could include the following tables:
 
-
-
-[This section will be completed in Unit 9]
+- **Users**: Stores information about each user, such as their username, password, profile picture, and saved locations.
+- **Guides**: Stores information about each guide, such as their name, location, quote, and profile picture URL.
+- **Locations**: Stores information about each location, such as its name, description, and associated guides.
 
 ### Models
 
-[Add table of models]
+Here are the models based on the schema:
+
+- **User**
+    - username: String
+    - password: String
+    - profilePicture: UIImage
+    - savedLocations: [Location]
+
+- **Guide**
+    - name: String
+    - location: String
+    - quote: String
+    - profilePictureURL: String
+
+- **Location**
+    - name: String
+    - description: String
+    - associatedGuides: [Guide]
 
 ### Networking
 
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+Here are the network requests by screen:
+
+- **Login Screen**
+    - (Read/GET) Query logged in user object
+
+- **Registration Screen**
+    - (Create/POST) Create a new user object
+
+- **Profile Screen**
+    - (Read/GET) Query logged in user object
+    - (Update/PUT) Update user profile image
+
+- **Home Screen**
+    - (Read/GET) Query all guides where user is author
+
+- **Guide Detail Screen**
+    - (Read/GET) Query the guide object
+
+Please note that these are just suggestions and you may need to modify them based on the actual requirements of your app and the backend service you are using. If you're using a specific backend like Firebase or Parse, you'll need to adjust the networking section to match the API calls for that service. If you're using an existing API, you'll need to list the endpoints you're using in the networking section. Let me know if you need further assistance! 😊
+
