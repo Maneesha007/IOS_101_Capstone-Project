@@ -39,7 +39,7 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
 * [x] Users can edit their Profile
 * [ ] Users can access personalized recommendations for nearby points of interest, events, and attractions.
 * [x] Users receive real-time updates on events and attractions in their selected destination.
-* [ ] Users can personally connect with local insiders who offer tailored tours and insights into the area's culture and history.
+* [x] Users can personally connect with local insiders who offer tailored tours and insights into the area's culture and history.
 
 **Optional Nice-to-have Stories**
 
@@ -57,11 +57,11 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
 * Users can search for specific locations, guides, or points of interest using filters.
 - [ ] inbox Screen
 * User receives suggestion to be as local guide for other people based on user location.
-- [ ] Guide Screen 
+- [x] Guide Screen 
 * Users can view  profiles of Guides of interest and connect with local insiders and book tailored tours or experiences.
 - [x] Detail Screen
 * Users can view detailed information about a specific location, event, or attraction
-- [ ] Guide Detail Screen 
+- [x] Guide Detail Screen 
 * Users can view  detailed profile of Guide and their reviews.  
 - [x] Profile Screen
 * Users can view and edit their general information, guide profile, settings , policy and contact&support.
@@ -69,7 +69,7 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
 * Users can view curated guides, personalized recommendations, and real-time updates.
 - [ ] Map screen
 * Users can view maps to locate local events, local attractions.
-- [ ] Trip Screen
+- [x] Trip Screen
 
 
 ### 3. Navigation
@@ -95,11 +95,11 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
   * => Guide Screen
 - [ ] location/event Screen
   * => Map screen
-- [ ] Guide Screen
+- [x] Guide Screen
   * => Guide detail Screen
 - [ ] Profile Screen
   * => None
-- [ ] Trip Screen
+- [x] Trip Screen
   * => None
 - [ ] Inbox Screen
   * => None
