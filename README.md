@@ -34,10 +34,10 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
 
 * [x] Users can login and sign up into the app 
 * [x] Users can navigate form home screen to inbox, trip, Blog, Profile Screens
-* [ ] Users can view curated guides for less-known locations.
-* [ ] Users can access personalized recommendations for nearby points of interest, events, and attractions.
-* [ ] Users receive real-time updates on events and attractions in their selected destination.
-* [ ] Users can personally connect with local insiders who offer tailored tours and insights into the area's culture and history.
+* [x] Users can view curated guides for less-known locations.
+* [x] Users can access personalized recommendations for nearby points of interest, events, and attractions.
+* [x] Users receive real-time updates on events and attractions in their selected destination.
+* [x] Users can personally connect with local insiders who offer tailored tours and insights into the area's culture and history.
 
 **Optional Nice-to-have Stories**
 
@@ -51,23 +51,23 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
 * Users can log in to their existing accounts.
 - [x] Registration Screen
 * Users can create a new account.
-- [ ] Home Screen
+- [x] Home Screen
 * Users can search for specific locations, guides, or points of interest using filters.
-- [ ] inbox Screen
+- [x] inbox Screen
 * User receives suggestion to be as local guide for other people based on user location.
-- [ ] Guide Screen 
+- [x] Guide Screen 
 * Users can view  profiles of Guides of interest and connect with local insiders and book tailored tours or experiences.
-- [ ] Detail Screen
+- [x] Detail Screen
 * Users can view detailed information about a specific location, event, or attraction
-- [ ] Guide Detail Screen 
+- [x] Guide Detail Screen 
 * Users can view  detailed profile of Guide and their reviews.  
-- [ ] Profile Screen
+- [x] Profile Screen
 * Users can view and edit their general information, guide profile, settings , policy and contact&support.
-- [ ] Blog Screen
+- [x] Blog Screen
 * Users can view curated guides, personalized recommendations, and real-time updates.
-- [ ] Map screen
+- [x] Map screen
 * Users can view maps to locate local events, local attractions.
-- [ ] Trip Screen
+- [x] Trip Screen
 
 
 ### 3. Navigation
@@ -88,20 +88,20 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
   * => Home
 - [x] Registration Screen
   * => Home
-- [ ] Home Screen
+- [x] Home Screen
   * => location/event Screen
   * => Guide Screen
-- [ ] location/event Screen
+- [x] location/event Screen
   * => Map screen
-- [ ] Guide Screen
+- [x] Guide Screen
   * => Guide detail Screen
-- [ ] Profile Screen
+- [x] Profile Screen
   * => None
-- [ ] Trip Screen
+- [x] Trip Screen
   * => None
-- [ ] Inbox Screen
+- [x] Inbox Screen
   * => None
-- [ ] Blog Screen
+- [x] Blog Screen
   * => None
 
 
@@ -147,17 +147,15 @@ Guida Locale is a travel and exploring app that promotes local activities. Users
 * Implementing firebase project for User Authentication
 * Using Segue to control the flow between screens
 <div>
-    <a href="https://www.loom.com/share/fbacfa3087eb41b988c4abe29eb3f5db">
+    a href="https://www.loom.com/share/fbacfa3087eb41b988c4abe29eb3f5db"
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/fbacfa3087eb41b988c4abe29eb3f5db-with-play.gif">
     </a>
   </div>
 ## Schema 
 
-[This section will be completed in Unit 9]
 
 ### Models
 
-[Add table of models]
 
 ### Networking
 
