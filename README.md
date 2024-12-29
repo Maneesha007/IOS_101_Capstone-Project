@@ -1,4 +1,3 @@
-# IOS-101_Capstone-project
 
 # guida locale
 
